@@ -3,6 +3,10 @@
 ## 该项目主要是来自pytorch官方torchvision模块中的源码
 * https://github.com/pytorch/vision/tree/main/torchvision/models/segmentation
 
+## Update
+
+1. :star:增加 FCN-MobileNet v2 模型及其训练脚本
+
 ## 环境配置：
 * Python3.6/3.7/3.8
 * Pytorch1.10
