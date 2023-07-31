@@ -274,7 +274,7 @@ def parse_args():
     import argparse
     parser = argparse.ArgumentParser(description="pytorch fcn training")
 
-    parser.add_argument("--data-path", default="/data/data_01/lijiandong/Datasets/", help="VOCdevkit root")
+    parser.add_argument("--data-path", default="/Datasets/", help="VOCdevkit root")
     parser.add_argument("--num-classes", default=20, type=int)  # 不包含背景
     parser.add_argument("--device", default="cuda", help="training device")
     parser.add_argument("-b", "--batch-size", default=16, type=int)
