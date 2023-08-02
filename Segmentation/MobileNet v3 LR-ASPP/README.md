@@ -56,4 +56,4 @@ LR-ASPP网络讲解:
 LR-ASPP源码解析(Pytorch版): [https://www.bilibili.com/video/bv13D4y1F7ML](https://www.bilibili.com/video/bv13D4y1F7ML)
 
 ## Pytorch官方实现的LRASPP网络框架图
-![lraspp](LR-ASPP-MobileNet v3 LR-ASPP 模型架构.png)
+![lr_aspp_architecture](lr_aspp_architecture.png)
