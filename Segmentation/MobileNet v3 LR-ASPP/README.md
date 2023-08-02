@@ -33,7 +33,6 @@
  
 ## 数据集，本例程使用的是PASCAL VOC2012数据集
 * Pascal VOC2012 train/val数据集下载地址：http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
-* 如果不了解数据集或者想使用自己的数据集进行训练，请参考我的博文。
 
 ## 训练方法
 * 确保提前准备好数据集
@@ -49,7 +48,9 @@
 * 使用validation文件时，注意确保你的验证集或者测试集中必须包含每个类别的目标，并且使用时只需要修改'--num-classes'、'--data-path'和'--weights'即可，其他代码尽量不要改动
 
 ## 如果对LRASPP原理不是很理解可参考
-LR-ASPP网络讲解: [https://www.bilibili.com/video/BV1LS4y1M76E](https://www.bilibili.com/video/BV1LS4y1M76E)
+LR-ASPP网络讲解: 
++ [https://www.bilibili.com/video/BV1LS4y1M76E](https://www.bilibili.com/video/BV1LS4y1M76E)
++ [https://blog.csdn.net/weixin_44878336/article/details/132046974](https://blog.csdn.net/weixin_44878336/article/details/132046974)
 
 ## 进一步了解该项目，以及对LRASPP代码的分析可参考
 LR-ASPP源码解析(Pytorch版): [https://www.bilibili.com/video/bv13D4y1F7ML](https://www.bilibili.com/video/bv13D4y1F7ML)
